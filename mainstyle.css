@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+}
+
+.system-adm{
+    background-color: #222222;
+    width: 500px;
+}
+
+.infor{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    font-size: 15px;
+    list-style: none;
+    color: white;
+    margin: 30px;
+    margin-left: 15px
+}
+
+.home-page .head{
+    display: flex;
+}
+
+.list-icon, .search-box, .item{
+    margin-top: 10px;
+    margin-bottom: -20px;
+    margin-left: 10px;
+}
+
+.item{
+    justify-content: space-around;
+    background-color: #DDDDDD;
+}
+
+.item > i{ 
+    margin: 10px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title > i{
+    margin-right: 40px;
+}
+
+.boxs{
+    display: flex;
+    margin: 10px;
+}
+
+.box-product{
+    background-color: #df193a;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+    width: 250px;
+    height: 150px;
+}
+
+.box-new{
+    background-color: #00A6AD;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+    width: 250px;
+    height: 150px;
+}
+
+.box-member{
+    background-color: #3e7e1e;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+    width: 250px;
+    height: 150px;
+}
+
+.box-username{
+    background-color: #f7ce49;
+    border-radius: 5px;
+    color: black;
+    margin: 5px;
+    width: 250px;
+    height: 150px;
+}
+
+.details-product{
+   justify-content: center;
+    display: flex;
+    background-color: #981717;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.details-new{
+    justify-content: center;
+     display: flex;
+     background-color: #008489 ;
+     border-radius: 5px;
+     margin-top: 25px;
+ }
+
+ .details-member{
+    justify-content: center;
+    display: flex;
+    background-color: #135f2a ;
+    border-radius: 5px;
+    margin-top: 25px
+ }
+
+.details-username{
+    justify-content: center;
+    display: flex;
+    background-color: #d1a023 ;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+
+ @media (max-width: 550px) {
+    body {
+        flex-direction: column;
+    }
+
+    .system-adm {
+        width: 10%;
+    }
+
+    .item {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .title > i {
+        margin-right: 50px;
+    }
+
+    .boxs {
+        flex-direction: column;
+        margin: 90px;
+    }
+
+    .box-product,
+    .box-new,
+    .box-member,
+    .box-username {
+        width: 100%;
+        margin: 10px 0;
+    }
+} 
+
+/* Add more media queries as needed for other screen sizes */
+
+
+
